@@ -97,3 +97,11 @@ details[open] summary { margin-bottom: .5rem; }
 }
 .price { font-weight: 700; color: var(--green); margin: 0 0 .75rem; }
 .grid > .card { margin-bottom: 0; }
+.rates { border-collapse: collapse; width: 100%; max-width: 32rem; margin: 1rem 0; }
+.rates th, .rates td { text-align: left; padding: .45rem .75rem; border-bottom: 1px solid #e3e7e5; }
+.rates th { background: var(--grey-light); color: var(--green-dark); }
+.rates td:last-child, .rates th:last-child { text-align: right; }
+.person { grid-template-columns: 180px 1fr; margin-bottom: 2rem; }
+.person img { border-radius: var(--radius); }
+.role { font-weight: 500; color: var(--green); margin-top: -.25rem; }
+@media (max-width: 600px) { .person { grid-template-columns: 1fr; } .person img { max-width: 180px; } }
