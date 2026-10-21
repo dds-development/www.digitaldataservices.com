@@ -1,0 +1,12 @@
+# WordPress backup material never goes in this repo
+*.sql
+*.sql.gz
+*.wpress
+*.zip
+backup/
+_work/
+# local and OS files
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
